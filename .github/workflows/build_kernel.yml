@@ -6,11 +6,11 @@ on:
       KERNEL_SOURCE:
         description: 'Kernel source URL'
         required: true
-        default: 'https://github.com/aosp-realm/android_kernel_xiaomi_apollo.git'
+        default: 'https://github.com/anchalsehrawat/android_kernel_oneplus_sm8350.git'
       KERNEL_BRANCH:
         description: 'Kernel branch'
         required: true
-        default: 'main'
+        default: 'lineage-21'
       KERNEL_NAME:
         description: 'Kernel/zip name'
         required: true
@@ -18,7 +18,7 @@ on:
       CONFIG_FILE:
         description: 'Config file (You can put multiple configs separated by space)'
         required: true
-        default: 'apollo_defconfig vendor/debugfs.config'
+        default: 'vendor/lahaina-qgki_defconfig vendor/oplus_yupik_QGKI.config'
       TOOLCHAIN_URL:
         description: "Clone URL of your toolchain"
         required: true
